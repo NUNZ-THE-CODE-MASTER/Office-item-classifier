@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Rebuilt by prepare_dataset.py
+data/split/
+
+# Training run folders (large). models/best.pt IS committed so graders can run predict.py
+models/runs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
